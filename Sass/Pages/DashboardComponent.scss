@@ -1,0 +1,14 @@
+@import "../utilities";
+
+.donut_barlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    @include tablet-screen {
+        flex-direction: column;
+    }
+    @include mobile-screen {
+        flex-direction: column;
+    }
+}

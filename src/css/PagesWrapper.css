@@ -1,0 +1,20 @@
+.pages_wrapper {
+  width: 100vw;
+  min-height: 100vh !important;
+  padding-top: 3.5rem;
+  background-color: rgba(100, 148, 237, 0.477);
+}
+.pages_wrapper .alert {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.pages_wrapper .alert .cross {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5em;
+}/*# sourceMappingURL=PagesWrapper.css.map */

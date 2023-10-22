@@ -1,0 +1,48 @@
+@import "../utilities";
+
+.dashboard_wrapper {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    @include mobile_screen {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    header {
+        margin-bottom: 1rem;
+        .row {
+            .card_div {
+                .card {
+                    box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+                    backdrop-filter: blur(6px);
+                    -webkit-backdrop-filter: blur(4px);
+                    // background-color: #00000076;
+                }
+            }
+        }
+    }
+
+    .chart_section {
+        margin-bottom: 1rem;
+        width: 100%;
+        @include desktop_screen {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex: 1;
+        }
+    }
+
+    .statistics_section {
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        @include mobile_screen {
+            flex-direction: column;
+        }
+    }
+}

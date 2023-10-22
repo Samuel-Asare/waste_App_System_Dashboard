@@ -1,0 +1,16 @@
+.donut_barlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .donut_barlist {
+    flex-direction: column;
+  }
+}
+@media (max-width: 770px) {
+  .donut_barlist {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=DashboardComponent.css.map */

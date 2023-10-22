@@ -1,0 +1,14 @@
+.Login_Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 93vh;
+  width: 100vw;
+}
+
+.error_message {
+  color: brown;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}/*# sourceMappingURL=Login.css.map */

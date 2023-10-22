@@ -1,0 +1,9 @@
+.card .contact_message {
+  text-wrap: wrap;
+  width: 350px;
+}
+@media (min-width: 992px) {
+  .card .contact_message {
+    width: 90%;
+  }
+}/*# sourceMappingURL=ContactUsRequestTable.css.map */

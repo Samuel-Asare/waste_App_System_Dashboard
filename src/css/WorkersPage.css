@@ -1,0 +1,68 @@
+.Workers_Wrapper {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+@media (min-width: 770px) and (max-width: 991.98px) {
+  .Workers_Wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 770px) {
+  .Workers_Wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.Workers_Wrapper .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+.Workers_Wrapper .content .card {
+  height: 150px;
+  background: rgba(242, 236, 236, 0.25);
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  transition: ease-in-out 600ms box-shadow;
+}
+.Workers_Wrapper .content .card:hover {
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.509);
+}
+.Workers_Wrapper .content .card .avator_name {
+  margin-left: 10px;
+}
+.Workers_Wrapper .content .card .avator_name::after {
+  content: "";
+  background-color: #999999;
+  width: 100%;
+  height: 1px;
+  display: block;
+}
+.Workers_Wrapper .content .card .avator_name img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: -10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Workers_Wrapper .content .card .avator_name .name {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+.Workers_Wrapper .content .card .card_content {
+  padding-top: 0.5rem;
+}
+.Workers_Wrapper .content .card .card_content ul {
+  list-style: circle;
+}
+.Workers_Wrapper .content .card .card_content ul li {
+  font-size: 0.75em;
+  margin-left: 1rem;
+}/*# sourceMappingURL=WorkersPage.css.map */

@@ -1,0 +1,145 @@
+/* styles.css */
+.sidebar {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 65px;
+  height: 100%;
+  background: #646cff;
+  transition: width 0.4s;
+  z-index: 99;
+  box-shadow: 2px 2px 20px 3px rgba(0, 0, 0, 0.3176470588);
+}
+
+.open {
+  width: 260px !important;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sidebar-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 260px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  background: rgba(0, 0, 0, 0.15);
+}
+.sidebar-header h3 {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.sidebar-burger {
+  width: 55px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.2rem;
+  outline: none !important;
+  border: none !important;
+  border-radius: 0.3rem;
+  background-color: transparent;
+}
+.sidebar-burger span img {
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+.sidebar-logo {
+  height: 28px;
+}
+
+.sidebar-button > span {
+  opacity: 0.5;
+}
+
+.sidebar-menu {
+  display: grid;
+  padding: 10px 5px;
+  row-gap: 1rem;
+}
+.sidebar-menu .menu_div {
+  display: flex;
+  align-items: center;
+}
+.sidebar-menu .menu_div img {
+  margin-right: 25px;
+  width: 35px;
+  opacity: 1;
+}
+.sidebar-menu .menu_div span {
+  width: 82px;
+  color: #fff;
+}
+
+sidebar-button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+a {
+  width: 100%;
+}
+a .sidebar-button {
+  width: 100%;
+  text-align: center;
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.231372549);
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+a .sidebar-button::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  transition: cubic-bezier(0.3, 0.9, 0.8, 0) 600ms width;
+  margin-top: 10px;
+}
+a .sidebar-button:hover::after {
+  width: 100%;
+}
+
+sidebar-button:hover > span {
+  opacity: 1;
+}
+
+.sidebar-logo,
+.sidebar-button p {
+  opacity: 0;
+  transition: 0.35;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+.sidebar-logo:hover,
+.sidebar-button p:hover {
+  color: rgb(255, 255, 255);
+}
+
+.sidebar.open :is(.sidebar-button p, .sidebar-logo) {
+  opacity: 1;
+}
+
+.active {
+  background-color: #5059ff !important;
+}/*# sourceMappingURL=SideBar.css.map */

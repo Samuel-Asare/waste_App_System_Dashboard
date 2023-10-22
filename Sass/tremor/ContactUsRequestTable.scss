@@ -1,0 +1,11 @@
+@import "../utilities";
+
+.card {
+    .contact_message {
+        @include desktop_screen {
+            width: 90%;
+        }
+        text-wrap: wrap;
+        width: 350px;
+    }
+}

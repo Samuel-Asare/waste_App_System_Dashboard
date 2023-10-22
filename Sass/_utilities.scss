@@ -1,0 +1,41 @@
+$primary-blue: #646cff;
+$primary-white: #fff;
+$second-Gray: #9daec2;
+$second-yellow: goldenrod;
+$dark-light: #000000a7;
+$black: #000;
+
+$glassy_div_color-blue: #646cff40;
+$glassy_div_color-yellow: #dedfbb53;
+
+$contact_black: #0f102e;
+$contact_darkblue: #2a2e82;
+
+$mobile: 770px;
+$tablet: 991.98px;
+$desktop: 992px;
+$main_tablet: 770px;
+
+@mixin mobile_screen {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin tablet_screen {
+    @media (min-width:#{$mobile} ) and (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin tablet_main_screen {
+    @media (max-width: #{$main_tablet}) {
+        @content;
+    }
+}
+
+@mixin desktop_screen {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}

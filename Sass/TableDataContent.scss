@@ -1,0 +1,17 @@
+@import "./utilities";
+
+.card {
+    .table_body {
+        &:first-child {
+            .badge {
+                background: #daa520;
+                cursor: pointer;
+                padding: 0.3rem;
+            }
+        }
+        .badge {
+            height: 5px;
+            width: 7px;
+        }
+    }
+}

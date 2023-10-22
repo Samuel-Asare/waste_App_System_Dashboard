@@ -1,0 +1,42 @@
+.dashboard_wrapper {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+@media (max-width: 770px) {
+  .dashboard_wrapper {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+.dashboard_wrapper header {
+  margin-bottom: 1rem;
+}
+.dashboard_wrapper header .row .card_div .card {
+  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.dashboard_wrapper .chart_section {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .dashboard_wrapper .chart_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+  }
+}
+.dashboard_wrapper .statistics_section {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 770px) {
+  .dashboard_wrapper .statistics_section {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Dashboard.css.map */
