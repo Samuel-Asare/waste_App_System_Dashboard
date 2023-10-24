@@ -9,17 +9,20 @@ import React, {
 
 interface AdminState {
     username: string;
+    location: string;
     email: string;
 }
 
 type AdminAction =
     | { type: "USERNAME"; payload: string }
     | { type: "EMAIL"; payload: string }
+    | { type: "LOCATION"; payload: string }
     | { type: "RESET" };
 
 const initialState: AdminState = {
     username: "",
     email: "",
+    location: "",
 };
 
 const AdminContext = createContext<
@@ -32,6 +35,8 @@ const adminReducer = (state: AdminState, action: AdminAction): AdminState => {
             return { ...state, username: action.payload };
         case "EMAIL":
             return { ...state, email: action.payload };
+        case "LOCATION":
+            return { ...state, location: action.payload };
         case "RESET":
             return { ...initialState };
         default:

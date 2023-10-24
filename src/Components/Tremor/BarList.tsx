@@ -11,18 +11,54 @@ const BarListFunc = () => {
         {
             name: "Contacts",
             value: userContact.length,
-            href: "https://twitter.com/tremorlabs",
+            // href: "",
             icon: function TwitterIcon() {
                 return (
                     <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="mr-2.5 fill-blue-500"
+                        width="23"
+                        height="23"
+                        fill="none"
+                        stroke="#f6b604"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
                         viewBox="0 0 24 24"
-                        width="20"
-                        height="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="mr-2.5 "
                     >
-                        <path fill="none" d="M0 0h24v24H0z" />
-                        <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z" />
+                        <path d="M16.125 13.125 20.25 9"></path>
+                        <path d="m10.875 10.125 3 3"></path>
+                        <path d="m3.75 15 4.875-4.875"></path>
+                        <path d="M21.375 9a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z"></path>
+                        <path d="M15 15.375a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z"></path>
+                        <path d="M9.75 10.125a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z"></path>
+                        <path d="M2.625 17.25a1.125 1.125 0 1 0 0-2.25 1.125 1.125 0 0 0 0 2.25Z"></path>
+                    </svg>
+                );
+            },
+        },
+        {
+            name: "Base Target",
+            value: 100,
+            // href: "#",
+            icon: function TwitterIcon() {
+                return (
+                    <svg
+                        width="23"
+                        height="23"
+                        fill="none"
+                        stroke="#f6b604"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="mr-2.5 "
+                    >
+                        <path d="M21 12c0-4.969-4.031-9-9-9s-9 4.031-9 9 4.031 9 9 9 9-4.031 9-9Z"></path>
+                        <path d="m17.25 9-5.245 6-2.247-2.25"></path>
+                        <path d="M8.998 15 6.75 12.75"></path>
+                        <path d="m14.33 9-2.416 2.766"></path>
                     </svg>
                 );
             },
