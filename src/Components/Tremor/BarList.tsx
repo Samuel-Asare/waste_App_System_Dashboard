@@ -10,7 +10,7 @@ const BarListFunc = () => {
     const data = [
         {
             name: "Contacts",
-            value: userContact.length,
+            value: (userContact.length / 100) * 100,
             // href: "",
             icon: function TwitterIcon() {
                 return (
@@ -39,7 +39,7 @@ const BarListFunc = () => {
         },
         {
             name: "Base Target",
-            value: 100,
+            value: (100 / 100) * 100,
             // href: "#",
             icon: function TwitterIcon() {
                 return (
