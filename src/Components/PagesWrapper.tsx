@@ -35,9 +35,9 @@ const PagesWrapper = () => {
         }
     }, [data, requestLen]);
 
-    // setTimeout(() => {
-    //     setIsNew(false);
-    // }, 6000);
+    setTimeout(() => {
+        setIsNew(false);
+    }, 6000);
 
     function handleAlertClose() {
         setIsNew(false);

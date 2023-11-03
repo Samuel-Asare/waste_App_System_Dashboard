@@ -30,7 +30,6 @@ const GeneralSuggestionReview = () => {
                     <TableRow>
                         <TableHeaderCell>Action</TableHeaderCell>
                         <TableHeaderCell>Message</TableHeaderCell>
-                        <TableHeaderCell>Message</TableHeaderCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
