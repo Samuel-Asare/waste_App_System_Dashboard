@@ -1,3 +1,4 @@
+import "../../css/Reviews.css";
 import { ResponseCommentContext } from "@/Context/ReviewComments/ResponseContext";
 import { useContext } from "react";
 
@@ -24,7 +25,7 @@ const ResponseReview = () => {
 
     return (
         <Card className="card">
-            <Title>Response Time Reviews</Title>
+            <Title className="review_headerText">Response Time Reviews</Title>
             <Table className="mt-5">
                 <TableHead>
                     <TableRow>

@@ -1,3 +1,5 @@
+import "../../css/HeaderNav.css";
+
 import { LogOut, User, Blocks, Contact } from "lucide-react";
 
 import { Button } from "@/Components/ui/button";
@@ -32,7 +34,9 @@ export function DropdownMenuComponent() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="outline">Menu</Button>
+                <Button variant="outline" className="menu_btn">
+                    Menu
+                </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>

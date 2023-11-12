@@ -1,3 +1,11 @@
+.card .notification_table_headerText {
+  font-weight: bold;
+}
+@media (max-width: 770px) {
+  .card .notification_table_headerText {
+    font-size: 0.955rem;
+  }
+}
 .card .table_body:first-child .badge {
   background: #daa520;
   cursor: pointer;

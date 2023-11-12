@@ -34,7 +34,9 @@ const RequestTable = () => {
 
     return (
         <Card className="card">
-            <Title>List Of Customer Waste Collection Request</Title>
+            <Title className="notification_table_headerText">
+                List Of Customer Waste Collection Request
+            </Title>
             <Table className="mt-5">
                 <TableHead>
                     <TableRow>
@@ -42,11 +44,11 @@ const RequestTable = () => {
                         <TableHeaderCell>Action</TableHeaderCell>
                         <TableHeaderCell>Name</TableHeaderCell>
                         <TableHeaderCell>Email</TableHeaderCell>
+                        <TableHeaderCell>Telephone</TableHeaderCell>
+                        <TableHeaderCell>Town</TableHeaderCell>
+                        <TableHeaderCell>Landmark</TableHeaderCell>
                         <TableHeaderCell>Bulky Items</TableHeaderCell>
                         <TableHeaderCell>Pickup date & Time</TableHeaderCell>
-                        <TableHeaderCell>Landmark</TableHeaderCell>
-                        <TableHeaderCell>Town</TableHeaderCell>
-                        <TableHeaderCell>Telephone</TableHeaderCell>
                         <TableHeaderCell>Quantity of Bins</TableHeaderCell>
                         <TableHeaderCell>Waste Type</TableHeaderCell>
                         <TableHeaderCell>Service Option</TableHeaderCell>
@@ -94,19 +96,19 @@ const RequestTable = () => {
                                 <Text>{item.user_email}</Text>
                             </TableCell>
                             <TableCell>
-                                <Text>{item.bulkyItems}</Text>
-                            </TableCell>
-                            <TableCell>
-                                <Text>{item.dateTime}</Text>
-                            </TableCell>
-                            <TableCell>
-                                <Text>{item.landmark}</Text>
+                                <Text>{item.phone}</Text>
                             </TableCell>
                             <TableCell>
                                 <Text>{item.town}</Text>
                             </TableCell>
                             <TableCell>
-                                <Text>{item.phone}</Text>
+                                <Text>{item.landmark}</Text>
+                            </TableCell>
+                            <TableCell>
+                                <Text>{item.bulkyItems}</Text>
+                            </TableCell>
+                            <TableCell>
+                                <Text>{item.dateTime}</Text>
                             </TableCell>
                             <TableCell>
                                 <Text>{item.quantityOfBins}</Text>

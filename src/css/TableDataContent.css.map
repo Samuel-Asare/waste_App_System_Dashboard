@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../Sass/TableDataContent.scss","TableDataContent.css"],"names":[],"mappings":"AAKY;EACI,mBAAA;EACA,eAAA;EACA,eAAA;ACJhB;ADOQ;EACI,WAAA;EACA,UAAA;ACLZ","file":"TableDataContent.css"}
+{"version":3,"sources":["../../Sass/TableDataContent.scss","TableDataContent.css","../../Sass/_utilities.scss"],"names":[],"mappings":"AAGI;EACI,iBAAA;ACFR;ACiBI;EFhBA;IAGQ,mBAAA;ECAV;AACF;ADIY;EACI,mBAAA;EACA,eAAA;EACA,eAAA;ACFhB;ADKQ;EACI,WAAA;EACA,UAAA;ACHZ","file":"TableDataContent.css"}

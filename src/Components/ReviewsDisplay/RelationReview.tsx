@@ -1,3 +1,4 @@
+import "../../css/Reviews.css";
 import { useContext } from "react";
 
 import {
@@ -24,7 +25,9 @@ const RelationReview = () => {
 
     return (
         <Card className="card">
-            <Title>Relation and Service Reviews</Title>
+            <Title className="review_headerText">
+                Relation and Service Reviews
+            </Title>
             <Table className="mt-5">
                 <TableHead>
                     <TableRow>

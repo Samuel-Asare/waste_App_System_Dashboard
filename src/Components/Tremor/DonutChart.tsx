@@ -1,3 +1,5 @@
+import "../../css/DashboardComponent.css";
+
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Card, Title, DonutChart } from "@tremor/react";
 import { useContext, useEffect, useState } from "react";
@@ -64,8 +66,10 @@ const DonutChartFunc = () => {
 
     return (
         <>
-            <Card className="max-w-lg">
-                <Title>Waste Type Collection Request</Title>
+            <Card className="max-w-lg w-full  donut_card">
+                <Title className="donutChart_header_text">
+                    Waste Type Collection Request
+                </Title>
 
                 <DonutChart
                     className="mt-6"

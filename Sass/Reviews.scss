@@ -1,0 +1,13 @@
+@import "utilities";
+
+.card {
+    @include mobile_screen {
+        padding: 0.5rem;
+    }
+    .review_headerText {
+        font-weight: bold;
+        @include mobile_screen {
+            font-size: 0.9rem;
+        }
+    }
+}

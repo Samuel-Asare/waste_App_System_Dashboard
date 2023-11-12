@@ -1,11 +1,20 @@
 @import "../utilities";
 
-.card {
-    .contact_message {
-        @include desktop_screen {
-            width: 90%;
+.request_card_wrapper {
+    padding: 1rem 0.5rem 0;
+    .card {
+        .card_headerText {
+            font-weight: bold;
+            @include mobile_screen {
+                font-size: 0.955rem;
+            }
         }
-        text-wrap: wrap;
-        width: 350px;
+        .contact_message {
+            @include desktop_screen {
+                width: 90%;
+            }
+            text-wrap: wrap;
+            width: 350px;
+        }
     }
 }

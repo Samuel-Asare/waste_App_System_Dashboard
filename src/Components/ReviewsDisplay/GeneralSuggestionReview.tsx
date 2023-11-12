@@ -1,5 +1,5 @@
+import "../../css/Reviews.css";
 import { useContext } from "react";
-
 import {
     Card,
     Table,
@@ -24,7 +24,9 @@ const GeneralSuggestionReview = () => {
 
     return (
         <Card className="card">
-            <Title>General Suggestion Reviews</Title>
+            <Title className="review_headerText">
+                General Suggestion Reviews
+            </Title>
             <Table className="mt-5">
                 <TableHead>
                     <TableRow>

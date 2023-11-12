@@ -1,3 +1,27 @@
+@media (max-width: 770px) {
+  .dashboard_container_wrapper {
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .chart_card .chart_header_text {
+    font-size: 0.955rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .barlist_card .barlist_card_header_text {
+    font-size: 0.955rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .donut_card .donutChart_header_text {
+    font-size: 0.955rem;
+  }
+}
+
 .donut_barlist {
   display: flex;
   align-items: center;

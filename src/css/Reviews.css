@@ -1,0 +1,13 @@
+@media (max-width: 770px) {
+  .card {
+    padding: 0.5rem;
+  }
+}
+.card .review_headerText {
+  font-weight: bold;
+}
+@media (max-width: 770px) {
+  .card .review_headerText {
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=Reviews.css.map */

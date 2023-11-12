@@ -36,7 +36,7 @@ export default function DashboardExample() {
     return (
         <>
             {loggedIn && (
-                <main className="p-12">
+                <main className="p-12 dashboard_container_wrapper">
                     <Title>Dashboard</Title>
                     <Text>
                         cleanwaste. Dashboard, that hightlight all operations on
@@ -54,7 +54,7 @@ export default function DashboardExample() {
                                 <div className="mt-6">
                                     <AreaChartDemo />
                                 </div>
-                                <div className="mt-6 donut_barlist">
+                                <div className="mt-6 flex flex-col sm:flex-row donut_barlist">
                                     <DonutChartFunc />
                                     <BarListFunc />
                                 </div>

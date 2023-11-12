@@ -27,9 +27,11 @@ const ContactUsRequestTable = () => {
     }
 
     return (
-        <div>
+        <div className="request_card_wrapper">
             <Card className="card">
-                <Title>List Of Customer Waste Collection Request</Title>
+                <Title className="card_headerText">
+                    List Of Customer Waste Collection Request
+                </Title>
                 <Table className="mt-5">
                     <TableHead>
                         <TableRow>

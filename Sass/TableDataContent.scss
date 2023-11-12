@@ -1,6 +1,12 @@
 @import "./utilities";
 
 .card {
+    .notification_table_headerText {
+        font-weight: bold;
+        @include mobile_screen {
+            font-size: 0.955rem;
+        }
+    }
     .table_body {
         &:first-child {
             .badge {

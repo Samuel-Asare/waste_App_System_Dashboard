@@ -1,3 +1,5 @@
+import "../../css/DashboardComponent.css";
+
 import { UserContactContext } from "@/Context/UserContact/UserContactContext";
 import { BarList, Card, Title, Bold, Flex, Text } from "@tremor/react";
 import { useContext } from "react";
@@ -66,8 +68,10 @@ const BarListFunc = () => {
     ];
 
     return (
-        <Card className="max-w-lg">
-            <Title>User Contact Requests</Title>
+        <Card className="max-w-lg w-full-sm w-1/2 barlist_card">
+            <Title className="barlist_card_header_text">
+                User Contact Requests
+            </Title>
             <Flex className="mt-4">
                 <Text>
                     <Bold>Concerns</Bold>

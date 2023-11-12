@@ -1,3 +1,4 @@
+import "../../css/DashboardComponent.css";
 import { useState, useEffect, useContext, useCallback } from "react";
 import { Card, Title, AreaChart } from "@tremor/react";
 import "../../css/AreaChart.css";
@@ -88,8 +89,10 @@ const AreaChartDemo = () => {
     }));
 
     return (
-        <Card>
-            <Title>Waste Request over time (%)</Title>
+        <Card className="chart_card">
+            <Title className="chart_header_text">
+                Waste Request over time (%)
+            </Title>
             <AreaChart
                 className="h-72 mt-4"
                 data={chartdata}

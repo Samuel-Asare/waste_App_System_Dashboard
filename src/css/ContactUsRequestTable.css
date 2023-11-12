@@ -1,9 +1,20 @@
-.card .contact_message {
+.request_card_wrapper {
+  padding: 1rem 0.5rem 0;
+}
+.request_card_wrapper .card .card_headerText {
+  font-weight: bold;
+}
+@media (max-width: 770px) {
+  .request_card_wrapper .card .card_headerText {
+    font-size: 0.955rem;
+  }
+}
+.request_card_wrapper .card .contact_message {
   text-wrap: wrap;
   width: 350px;
 }
 @media (min-width: 992px) {
-  .card .contact_message {
+  .request_card_wrapper .card .contact_message {
     width: 90%;
   }
 }/*# sourceMappingURL=ContactUsRequestTable.css.map */
